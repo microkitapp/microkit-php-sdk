@@ -1,7 +1,7 @@
 {
     "name": "microkit/microkit-php-sdk",
     "description": "Microkit PHP SDK",
-    "type": "composer-plugin",
+    "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
