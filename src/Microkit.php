@@ -42,6 +42,7 @@ class MicroKit {
         $microKit->configKit = new Group('config', $conf);
         $microKit->featuresKit = new Group('features', $res['features'] ?? []);
         $microKit->permissionsKit = new Permit();
+        $microKit->notificationsKit = new Notifications();
            
 
         if ($microKit->config->get('pollingOn')) {

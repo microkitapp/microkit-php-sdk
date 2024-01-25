@@ -30,6 +30,10 @@ class NetworkController {
         return $this->client->makeRequest('check_permissions', 'permit', $data);
     }
 
+    public function notify ($data) {
+        return $this->client->makeRequest('send_notifications', 'notify', $data);
+    }
+
     public function update() {
        
         try {
